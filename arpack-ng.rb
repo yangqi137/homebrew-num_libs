@@ -2,8 +2,8 @@ require 'formula'
 
 class ArpackNg < Formula
   homepage 'http://forge.scilab.org/index.php/p/arpack-ng'
-  url 'http://forge.scilab.org/index.php/p/arpack-ng/downloads/get/arpack-ng_3.1.1.tar.gz'
-  md5 'd65b915736650d8878719d4168e50c36'
+  url 'http://forge.scilab.org/index.php/p/arpack-ng/downloads/get/arpack-ng_3.1.2.tar.gz'
+  md5 '7644e234f219ec1a29849b6d7811a6b1'
 
   def install
     ENV['F77'] = 'ifort'
